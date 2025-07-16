@@ -39,6 +39,8 @@ const Users: React.FC<UsersPageProps> = ({ users: initialUsers }) => { // Rename
       <Header />
       <main className="p-4 flex-grow">
         <div className="flex justify-between items-center mb-6">
+          {/*added sh#*t here will remove it later}
+          {posts.map((post)) => { <li> Post </li>}}
           <h1 className="text-3xl font-bold text-gray-800">Our Users</h1>
           <button
             onClick={() => setModalOpen(true)}
