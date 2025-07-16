@@ -5,7 +5,7 @@ const Header: React.FC = () => {
   return (
     <header className="bg-gray-800 text-white p-4 shadow-md">
       <nav className="container mx-auto flex justify-between items-center">
-        <Link href="/" className="text-2xl font-bold">
+        <Link href="/" className="text-2xl font-bold "hover:underline"">
           My Next.js App
         </Link>
         <ul className="flex space-x-4">
