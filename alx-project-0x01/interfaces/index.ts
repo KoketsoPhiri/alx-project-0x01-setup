@@ -37,6 +37,7 @@ export interface UserProps {
   phone: string;
   website: string;
   company: CompanyProps;
+  onSubmit: (post: UserProps) => void;
 }
 
 
