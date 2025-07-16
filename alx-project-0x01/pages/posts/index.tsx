@@ -10,7 +10,7 @@ import { useState } from "react"; // Import useState
 interface PostsPageProps {
   posts: PostProps[];
 }
-
+const [post, setPost] = useState<PostData | null>(null);
 const Posts: React.FC<PostsPageProps> = ({ posts: initialPosts }) => { // Rename to initialPosts to avoid naming conflict
   const [isModalOpen, setModalOpen] = useState(false);
   // Manage the list of posts locally, initialized with fetched posts
