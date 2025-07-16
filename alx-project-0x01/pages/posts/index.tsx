@@ -2,7 +2,8 @@
 import PostCard from "@/components/common/PostCard";
 import PostModal from "@/components/common/PostModal"; // Import PostModal
 import Header from "@/components/layout/Header";
-import { PostData, PostProps } from "@/interfaces"; // Import PostData
+import { PostProps } from "@/interfaces";
+import { PostData} from "@/interfaces"; // Import PostData
 import { useState } from "react"; // Import useState
 
 // Update the interface for Posts component props to receive an array of PostProps
