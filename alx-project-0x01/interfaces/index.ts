@@ -1,6 +1,6 @@
 // interfaces/index.ts
 
-// Existing PostProps
+
 export interface PostProps {
   userId: number;
   id: number;
